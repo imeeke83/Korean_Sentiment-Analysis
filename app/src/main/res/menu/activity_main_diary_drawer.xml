@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Report">
+            <menu>
+                <item
+                    android:id="@+id/WeekReport"
+                    android:icon="@android:drawable/star_off"
+                    android:title="1주 분석" />
+                <item
+                    android:id="@+id/MonthReport"
+                    android:icon="@android:drawable/star_off"
+                    android:title="1달 분석" />
+            </menu>
+        </item>
+    </group>
+</menu>
